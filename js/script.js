@@ -41,14 +41,13 @@ function showScore() {
 
   let el = document.querySelector(".container");
   el.innerHTML = ele;
-
-  console.log(el);
 }
+
 var questions = [
   new Question(
-    "What command do you use to   screen?",
-    ["Cin", "Cout ", "Output", "Cout>>"],
-    "Cout>>"
+    "Which data structure uses LIFO?",
+    ["Int", "Array", "Stack", "Queues "],
+    "Stack"
   ),
   new Question(
     "What command do you use to output data to the screen?",
@@ -56,9 +55,19 @@ var questions = [
     "Cin"
   ),
   new Question(
-    " to output data to the screen?",
-    ["Cin", "Cout ", "Output", "Cout>>"],
-    "Cout>>"
+    "A memory location that holds a single letter or number.",
+    ["Double", "Int", "Char", "Word"],
+    "Char"
+  ),
+  new Question(
+    " A short sections of code written to complete a task. ",
+    ["Buffer", "Array", "Tree", "Function"],
+    "Function"
+  ),
+  new Question(
+    "One loop inside the body of another loop is called ",
+    ["Inside Loop", "Loop in Loop", "Nested", "Loops"],
+    "Nested"
   ),
 ];
 

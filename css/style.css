@@ -79,3 +79,7 @@ body {
   border-radius: 2rem;
   margin: 10px 40px 10px 190px;
 }
+
+.hide {
+  display: none;
+}

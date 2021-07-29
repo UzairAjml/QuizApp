@@ -13,7 +13,6 @@ Quiz.prototype.isEnded = function () {
   return this.questions.length === this.questionIndex;
 };
 Quiz.prototype.guess = function (answer) {
-  console.log(this.getQuestionIndex());
   if (this.getQuestionIndex().correct(answer)) {
     this.score++;
   }
