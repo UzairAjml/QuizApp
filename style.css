@@ -1,0 +1,81 @@
+body {
+  background-color: #eeeeee;
+}
+.container {
+  margin-top: 5rem;
+  width: 50%;
+  height: 65%;
+  margin-left: 25%;
+  border-radius: 2rem;
+  border: 2px solid rgba(116, 114, 114, 0.933);
+  position: absolute;
+  background-color: rgba(116, 114, 114, 0.933);
+
+  box-shadow: 10px 15px 5px rgba(116, 114, 114, 0.933);
+}
+
+.heading {
+  font-size: 2rem;
+  text-align: center;
+  background-color: rgb(214, 181, 238);
+  margin-top: 1rem;
+  margin-left: 35%;
+  border-radius: 2rem;
+  width: 30%;
+  height: 10%;
+}
+
+#question {
+  background-color: rgb(214, 181, 238);
+  margin-top: 2rem;
+  margin-left: 2rem;
+  width: fit-content;
+  border-radius: 3rem;
+  font-size: 1.5rem;
+}
+
+.btn {
+  background-color: rgb(214, 181, 238);
+  width: 250px;
+  font-size: 30px;
+  border-radius: 2rem;
+  margin: 10px 40px 10px 10px;
+}
+
+#btn0:hover,
+#btn1:hover,
+#btn2:hover,
+#btn3:hover {
+  cursor: pointer;
+  background-color: rgb(238, 63, 238);
+}
+
+#btn0:focus,
+#btn1:focus,
+#btn2:focus,
+#btn3:focus {
+  outline: 0;
+}
+
+.answers {
+  margin-top: 20px;
+}
+
+#road {
+  margin-left: 2rem;
+  margin-top: 5rem;
+}
+
+#score,
+#score1 {
+  text-align: center;
+  color: black;
+}
+
+#result {
+  text-align: center;
+  background-color: rgb(214, 181, 238);
+  width: 250px;
+  border-radius: 2rem;
+  margin: 10px 40px 10px 190px;
+}
